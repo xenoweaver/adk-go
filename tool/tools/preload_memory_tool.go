@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-a2a/adk-go/tool"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/tool"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // PreloadMemoryTool represents a tool that preloads the memory for the current user.

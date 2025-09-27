@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // LocalExecutor executes code in the local environment.

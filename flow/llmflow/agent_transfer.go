@@ -9,8 +9,8 @@ import (
 	"iter"
 	"strings"
 
-	"github.com/go-a2a/adk-go/tool/tools"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/tool/tools"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // AgentTransferLlmRequestProcessor represents an agent transfer request processor.

@@ -13,7 +13,7 @@ import (
 
 	"github.com/go-json-experiment/json"
 
-	"github.com/go-a2a/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/internal/pool"
 )
 
 // CodeExecutor defines the interface for executing code in various environments.

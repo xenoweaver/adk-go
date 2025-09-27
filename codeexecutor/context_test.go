@@ -10,8 +10,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/session"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/session"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 func TestGetContextFromInvocation(t *testing.T) {

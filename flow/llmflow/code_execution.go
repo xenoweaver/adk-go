@@ -15,12 +15,12 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/codeexecutor"
-	"github.com/go-a2a/adk-go/internal/xiter"
-	"github.com/go-a2a/adk-go/internal/xmaps"
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/pkg/py"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/codeexecutor"
+	"github.com/xenoweaver/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/internal/xmaps"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/pkg/py"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // DataFileUtil represents a structure that contains a data file name and its content.

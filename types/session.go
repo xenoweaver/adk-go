@@ -10,7 +10,7 @@ import (
 	"github.com/go-json-experiment/json"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/internal/pool"
 )
 
 // Session represents a user session with events that can be stored in memory.

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 func TestGemini_Generate(t *testing.T) {

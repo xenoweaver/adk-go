@@ -7,8 +7,8 @@ import (
 	"context"
 	"iter"
 
-	"github.com/go-a2a/adk-go/internal/xiter"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // LoopAgent runs an agent repeatedly until a condition is met.

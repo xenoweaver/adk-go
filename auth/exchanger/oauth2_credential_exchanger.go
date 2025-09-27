@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // OAuth2CredentialExchanger exchanges OAuth2 credentials from authorization responses.

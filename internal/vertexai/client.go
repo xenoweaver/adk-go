@@ -20,11 +20,11 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/api/option/internaloption"
 
-	"github.com/go-a2a/adk-go/internal/vertexai/extension"
-	"github.com/go-a2a/adk-go/internal/vertexai/generativemodel"
-	"github.com/go-a2a/adk-go/internal/vertexai/preview/rag"
-	"github.com/go-a2a/adk-go/internal/vertexai/prompt"
-	"github.com/go-a2a/adk-go/pkg/logging"
+	"github.com/xenoweaver/adk-go/internal/vertexai/extension"
+	"github.com/xenoweaver/adk-go/internal/vertexai/generativemodel"
+	"github.com/xenoweaver/adk-go/internal/vertexai/preview/rag"
+	"github.com/xenoweaver/adk-go/internal/vertexai/prompt"
+	"github.com/xenoweaver/adk-go/pkg/logging"
 )
 
 // Client provides unified access to all Vertex AI functionality.
@@ -137,7 +137,7 @@ func NewClient(ctx context.Context, projectID, location string, options ...optio
 	for _, o := range opts {
 		o.apply(client)
 	}
-	logger := otelslog.NewLogger("github.com/go-a2a/adk-go/internal/vertexai", otelslog.WithLoggerProvider(client.loggerProvider))
+	logger := otelslog.NewLogger("github.com/xenoweaver/adk-go/internal/vertexai", otelslog.WithLoggerProvider(client.loggerProvider))
 	if client.logger == nil {
 		client.logger = logger
 	}

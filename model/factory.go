@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // ModelType represents a type of model.

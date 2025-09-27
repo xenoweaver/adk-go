@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-a2a/adk-go/internal/vertexai/preview/rag"
+	"github.com/xenoweaver/adk-go/internal/vertexai/preview/rag"
 )
 
 // MockVertexRagClient simulates the behavior of the Vertex AI RAG client for testing.

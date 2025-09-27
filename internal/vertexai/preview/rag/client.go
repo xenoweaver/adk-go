@@ -12,7 +12,7 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	"github.com/go-a2a/adk-go/pkg/logging"
+	"github.com/xenoweaver/adk-go/pkg/logging"
 )
 
 // Service provides a unified interface for all Vertex AI RAG operations.

@@ -11,8 +11,8 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/pkg/logging"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/pkg/logging"
 )
 
 // VertexAiExampleStore provides examples from Vertex example store.

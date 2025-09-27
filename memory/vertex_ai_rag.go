@@ -15,10 +15,10 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/internal/pool"
-	"github.com/go-a2a/adk-go/internal/vertexai"
-	"github.com/go-a2a/adk-go/internal/vertexai/preview/rag"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/internal/vertexai"
+	"github.com/xenoweaver/adk-go/internal/vertexai/preview/rag"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // VertexAIRagService implements Service with Google Cloud Vertex AI RAG.

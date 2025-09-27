@@ -11,7 +11,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // Content Conversions

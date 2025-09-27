@@ -13,11 +13,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/go-a2a/adk-go/internal/xiter"
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/pkg/py"
-	"github.com/go-a2a/adk-go/pkg/py/pyasyncio"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/pkg/py"
+	"github.com/xenoweaver/adk-go/pkg/py/pyasyncio"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // LLMFlow represents a base flow that calls the LLM in a loop until a final response is generated.

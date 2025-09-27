@@ -10,9 +10,9 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/example"
-	"github.com/go-a2a/adk-go/tool"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/example"
+	"github.com/xenoweaver/adk-go/tool"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // ExampleTool represents a tool that adds (few-shot) examples to the [types.LLMRequest].

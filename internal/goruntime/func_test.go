@@ -19,31 +19,31 @@ func (funcTest) method2() string { return funcTest{}.method() }
 func (funcTest) method3() string { return funcTest{}.method2() }
 
 func TestFunc(t *testing.T) {
-	if Func() != "github.com/go-a2a/adk-go/internal/goruntime.TestFunc" {
-		t.Fatalf("Func() = %s, want: %s", Func(), "github.com/go-a2a/adk-go/internal/goruntime.TestFunc")
+	if Func() != "github.com/xenoweaver/adk-go/internal/goruntime.TestFunc" {
+		t.Fatalf("Func() = %s, want: %s", Func(), "github.com/xenoweaver/adk-go/internal/goruntime.TestFunc")
 	}
 
-	if (funcTest{}).method() != "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method" {
-		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method(), "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method")
+	if (funcTest{}).method() != "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method" {
+		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method(), "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method")
 	}
 
-	if (funcTest{}).method2() != "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method" {
-		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method2(), "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method")
+	if (funcTest{}).method2() != "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method" {
+		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method2(), "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method")
 	}
 
-	if (funcTest{}).method3() != "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method" {
-		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method3(), "github.com/go-a2a/adk-go/internal/goruntime.funcTest.method")
+	if (funcTest{}).method3() != "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method" {
+		t.Fatalf("Func() = %s, want: %s", (funcTest{}).method3(), "github.com/xenoweaver/adk-go/internal/goruntime.funcTest.method")
 	}
 
-	if new(funcTest).pmethod() != "github.com/go-a2a/adk-go/internal/goruntime.(*funcTest).pmethod" {
-		t.Fatalf("Func() = %s, want: %s", new(funcTest).pmethod(), "github.com/go-a2a/adk-go/internal/goruntime.(*funcTest).pmethod")
+	if new(funcTest).pmethod() != "github.com/xenoweaver/adk-go/internal/goruntime.(*funcTest).pmethod" {
+		t.Fatalf("Func() = %s, want: %s", new(funcTest).pmethod(), "github.com/xenoweaver/adk-go/internal/goruntime.(*funcTest).pmethod")
 	}
 }
 
 func TestFuncN(t *testing.T) {
-	if FuncN(0) != "github.com/go-a2a/adk-go/internal/goruntime.TestFuncN" {
+	if FuncN(0) != "github.com/xenoweaver/adk-go/internal/goruntime.TestFuncN" {
 		t.Fatalf("")
-		t.Fatalf("ThisN(0) = %s, want: %s", FuncN(0), "github.com/go-a2a/adk-go/internal/goruntime.TestFuncN")
+		t.Fatalf("ThisN(0) = %s, want: %s", FuncN(0), "github.com/xenoweaver/adk-go/internal/goruntime.TestFuncN")
 	}
 	if FuncN(1) != "testing.tRunner" {
 		t.Fatalf("")

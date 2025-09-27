@@ -7,8 +7,8 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/go-a2a/adk-go/tool"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/tool"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // AuthenticatedTool is a handles authentication before the actual tool logic

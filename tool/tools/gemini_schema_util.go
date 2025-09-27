@@ -12,7 +12,7 @@ import (
 	"github.com/google/jsonschema-go/jsonschema"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // ExtendedJSONSchema represents a JSON schema with additional properties for Gemini compatibility.

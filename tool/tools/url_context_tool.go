@@ -10,8 +10,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/tool"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/tool"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // URLContextTool represents a built-in tool that is automatically invoked by Gemini 2 models to retrieve content from the URLs and use that content to inform and shape its response.

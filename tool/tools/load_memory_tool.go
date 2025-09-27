@@ -6,7 +6,7 @@ package tools
 import (
 	"context"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // LoadMemoryResponse represents a response from the LoadMemory tool.

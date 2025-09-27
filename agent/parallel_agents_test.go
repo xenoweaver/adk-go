@@ -8,8 +8,8 @@ import (
 	"iter"
 	"testing"
 
-	"github.com/go-a2a/adk-go/agent"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/agent"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 func Test_mergeAgentRun(t *testing.T) {

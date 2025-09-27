@@ -15,7 +15,7 @@ import (
 	deepcopy "github.com/tiendc/go-deepcopy"
 	"golang.org/x/oauth2"
 
-	"github.com/go-a2a/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/internal/pool"
 )
 
 type AuthHandler struct {

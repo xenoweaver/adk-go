@@ -6,7 +6,7 @@ package session
 import (
 	"time"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // sessions represents a session with user interaction history.

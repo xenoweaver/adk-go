@@ -9,7 +9,7 @@ import (
 	"iter"
 	"log/slog"
 
-	"github.com/go-a2a/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/internal/xiter"
 )
 
 // BaseAgent represents the base agent.

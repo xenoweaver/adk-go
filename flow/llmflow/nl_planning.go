@@ -7,8 +7,8 @@ import (
 	"context"
 	"iter"
 
-	"github.com/go-a2a/adk-go/planner"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/planner"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // NLPlanningRequestProcessor represents a processor for NL planning.

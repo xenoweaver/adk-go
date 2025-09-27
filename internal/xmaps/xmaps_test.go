@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-a2a/adk-go/internal/xmaps"
+	"github.com/xenoweaver/adk-go/internal/xmaps"
 )
 
 func TestContains(t *testing.T) {

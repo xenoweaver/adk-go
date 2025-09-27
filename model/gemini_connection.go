@@ -12,8 +12,8 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/internal/xiter"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // GeminiConnection implements [types.ModelConnection] for Google [Gemini] models.

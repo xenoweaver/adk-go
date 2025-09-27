@@ -4,7 +4,7 @@
 package llmflow
 
 import (
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // SingleFlow is the LLM flows that handles tools calls.

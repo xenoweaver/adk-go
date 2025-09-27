@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // init registers the built-in model types.

@@ -15,7 +15,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/go-a2a/adk-go/pkg/py/pyasyncio"
+	"github.com/xenoweaver/adk-go/pkg/py/pyasyncio"
 )
 
 func TestTaskGroupBasicSuccess(t *testing.T) {

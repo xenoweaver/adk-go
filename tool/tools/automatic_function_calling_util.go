@@ -12,7 +12,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/tool"
+	"github.com/xenoweaver/adk-go/tool"
 )
 
 // FunctionOption represents configuration options for function declaration building.

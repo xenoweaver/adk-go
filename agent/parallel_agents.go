@@ -8,8 +8,8 @@ import (
 	"iter"
 	"sync"
 
-	"github.com/go-a2a/adk-go/internal/xiter"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/xiter"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // A shell agent that run its sub-agents in parallel in isolated manner.

@@ -19,8 +19,8 @@ import (
 	backoff "github.com/cenkalti/backoff/v5"
 	"google.golang.org/genai"
 
-	adk "github.com/go-a2a/adk-go"
-	"github.com/go-a2a/adk-go/types"
+	adk "github.com/xenoweaver/adk-go"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 const (
@@ -59,7 +59,7 @@ func WithRetry(retry *backoff.ExponentialBackOff) Option[Gemini] {
 }
 
 // NewGemini creates a new [Gemini] instance.
-func NewGemini(ctx context.Context, modelName string, opts ...Option[Gemini]) (*Gemini, error) {
+func NewGemini(ctx context.Context, apiKey string, modelName string, opts ...Option[Gemini]) (*Gemini, error) {
 	// Use default model if none provided
 	if modelName == "" {
 		modelName = GeminiLLMDefaultModel
@@ -75,12 +75,12 @@ func NewGemini(ctx context.Context, modelName string, opts ...Option[Gemini]) (*
 		opt(gemini)
 	}
 
-	frameworkLabel := fmt.Sprintf("go-a2a/adk-go/%s", adk.Version)
+	frameworkLabel := fmt.Sprintf("xenoweaver/adk-go/%s", adk.Version)
 	languageLabel := fmt.Sprintf("go/%s", runtime.Version())
 	versionHeaderValue := frameworkLabel + " " + languageLabel
 
 	clientConfig := &genai.ClientConfig{
-		APIKey:     cmp.Or(os.Getenv(EnvGoogleAPIKey), os.Getenv(EnvGeminiAPIKey)),
+		APIKey:     cmp.Or(apiKey, os.Getenv(EnvGoogleAPIKey), os.Getenv(EnvGeminiAPIKey)),
 		Project:    os.Getenv(EnvGoogleCloudProject),
 		Location:   cmp.Or(os.Getenv(EnvGoogleCloudLocation), os.Getenv(EnvGoogleCloudRegion)),
 		HTTPClient: gemini.hc,

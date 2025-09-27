@@ -15,8 +15,8 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // AudioTranscriber represents a transcribes audio using Google Cloud Speech-to-Text.

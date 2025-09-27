@@ -10,8 +10,8 @@ import (
 	anthropic "github.com/anthropics/anthropic-sdk-go"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 func TestClaude_Generate(t *testing.T) {

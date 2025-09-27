@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/go-a2a/adk-go/internal/vertexai/preview/rag"
+	"github.com/xenoweaver/adk-go/internal/vertexai/preview/rag"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // SequentialAgent represents a shell agent that run its sub-agents in sequence.

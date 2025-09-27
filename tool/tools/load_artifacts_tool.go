@@ -10,10 +10,10 @@ import (
 	"github.com/go-json-experiment/json"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/internal/pool"
-	"github.com/go-a2a/adk-go/model"
-	"github.com/go-a2a/adk-go/tool"
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/model"
+	"github.com/xenoweaver/adk-go/tool"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // LoadArtifactsTool represents a tool that loads the artifacts and adds them to the session.

@@ -66,7 +66,7 @@
 //
 // For simple LLM interactions without agent transfers:
 //
-//	import "github.com/go-a2a/adk-go/flow/llmprocessor"
+//	import "github.com/xenoweaver/adk-go/flow/llmprocessor"
 //
 //	// Create a single flow for basic interactions
 //	flow := llmprocessor.NewSingleFlow()

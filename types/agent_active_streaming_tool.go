@@ -6,7 +6,7 @@ package types
 import (
 	"sync"
 
-	"github.com/go-a2a/adk-go/pkg/py/pyasyncio"
+	"github.com/xenoweaver/adk-go/pkg/py/pyasyncio"
 )
 
 // ActiveStreamingTool manages streaming tool related resources during invocation.

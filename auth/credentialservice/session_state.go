@@ -6,7 +6,7 @@ package credentialservice
 import (
 	"context"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // SessionState represents a credential service using session state as the

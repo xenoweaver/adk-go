@@ -4,8 +4,8 @@
 
 An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-a2a/adk-go.svg)](https://pkg.go.dev/github.com/go-a2a/adk-go)
-[![Go](https://github.com/go-a2a/adk-go/actions/workflows/go.yml/badge.svg)](https://github.com/go-a2a/adk-go/actions/workflows/test.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/xenoweaver/adk-go.svg)](https://pkg.go.dev/github.com/xenoweaver/adk-go)
+[![Go](https://github.com/xenoweaver/adk-go/actions/workflows/go.yml/badge.svg)](https://github.com/xenoweaver/adk-go/actions/workflows/test.yml)
 
 [Features](#install-adk-go) •
 [Installation](#install-adk-go) •
@@ -47,7 +47,7 @@ An open-source, code-first Go toolkit for building, evaluating, and deploying so
 
 ```bash
 go mod init your-project
-go get github.com/go-a2a/adk-go
+go get github.com/xenoweaver/adk-go
 ```
 
 ### Environment Setup
@@ -75,10 +75,10 @@ import (
     "fmt"
     "log"
 
-    "github.com/go-a2a/adk-go/agent"
-    "github.com/go-a2a/adk-go/model"
-    "github.com/go-a2a/adk-go/session"
-    "github.com/go-a2a/adk-go/types"
+    "github.com/xenoweaver/adk-go/agent"
+    "github.com/xenoweaver/adk-go/model"
+    "github.com/xenoweaver/adk-go/session"
+    "github.com/xenoweaver/adk-go/types"
 )
 
 func main() {
@@ -129,10 +129,10 @@ import (
     "fmt"
     "math/rand"
 
-    "github.com/go-a2a/adk-go/agent"
-    "github.com/go-a2a/adk-go/model"
-    "github.com/go-a2a/adk-go/tool/tools"
-    "github.com/go-a2a/adk-go/types"
+    "github.com/xenoweaver/adk-go/agent"
+    "github.com/xenoweaver/adk-go/model"
+    "github.com/xenoweaver/adk-go/tool/tools"
+    "github.com/xenoweaver/adk-go/types"
 )
 
 // Simple dice rolling function
@@ -175,8 +175,8 @@ package main
 import (
     "context"
 
-    "github.com/go-a2a/adk-go/agent"
-    "github.com/go-a2a/adk-go/model"
+    "github.com/xenoweaver/adk-go/agent"
+    "github.com/xenoweaver/adk-go/model"
 )
 
 func main() {
@@ -476,8 +476,8 @@ adk-go/
 
 ## 🤝 Community & Support
 
-- **Issues**: [GitHub Issues](https://github.com/go-a2a/adk-go/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/go-a2a/adk-go/discussions)
+- **Issues**: [GitHub Issues](https://github.com/xenoweaver/adk-go/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/xenoweaver/adk-go/discussions)
 
 ## 🔗 Related Projects
 

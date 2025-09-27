@@ -14,7 +14,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/go-a2a/adk-go/pkg/py/pyasyncio"
+	"github.com/xenoweaver/adk-go/pkg/py/pyasyncio"
 )
 
 func TestTaskBasicLifecycle(t *testing.T) {

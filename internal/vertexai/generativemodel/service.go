@@ -15,7 +15,7 @@ import (
 	"google.golang.org/api/option"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/pkg/logging"
+	"github.com/xenoweaver/adk-go/pkg/logging"
 )
 
 // Service provides enhanced generative model capabilities for Vertex AI.

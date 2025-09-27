@@ -4,7 +4,7 @@
 package tools
 
 import (
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // GetUserChoice provides the options to the user and asks them to choose one.

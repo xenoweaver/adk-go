@@ -10,7 +10,7 @@ import (
 	"github.com/go-json-experiment/json"
 	"google.golang.org/genai"
 
-	"github.com/go-a2a/adk-go/internal/pool"
+	"github.com/xenoweaver/adk-go/internal/pool"
 )
 
 // LLMRequest represents a LLM request class that allows passing in tools, output schema and system.

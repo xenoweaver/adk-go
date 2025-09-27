@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-a2a/adk-go/internal/vertexai/preview/rag"
+	"github.com/xenoweaver/adk-go/internal/vertexai/preview/rag"
 )
 
 // TestRAGWorkflowIntegration tests the complete RAG workflow from corpus creation to retrieval.

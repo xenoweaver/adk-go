@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/go-a2a/adk-go/types"
+	"github.com/xenoweaver/adk-go/types"
 )
 
 // InstructionsLlmRequestProcessor represents a handles instructions and global instructions for LLM flow.
