@@ -1,4 +1,4 @@
-module github.com/go-a2a/adk-go
+module github.com/xenoweaver/adk-go
 
 go 1.25
 
